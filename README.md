@@ -2,6 +2,4 @@
 **Challenge 1** - Kyle Cox, Carter Mansell, Cade Mason, Tyler Sowards
 
 Demonstration Link:
-Presentation Link:
-
-# Project Description
+Presentation Video Link:
