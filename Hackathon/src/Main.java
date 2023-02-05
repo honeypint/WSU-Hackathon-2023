@@ -24,7 +24,7 @@ class Main {
         String SSCC = "085002031700000019";
         LocalDate currentDate = LocalDate.now();
         //GLN
-        System.out.print("What is your location?: "); // depending on what to do the information may be taken in by a text box instead
+        System.out.print("What is your location?: ");
         String lot = in.nextLine();
         String GLN;
         ArrayList<Double> Field = new ArrayList<>();
@@ -38,7 +38,9 @@ class Main {
             Field.add(-85.21);
         } 
         System.out.print("How much does the product weigh?: ");
-            int weight = in.nextInt();
+        int weight = in.nextInt();
+        
+        // In the future, we would have code down here that would connect to the Python Rest API and transfer information over.
         
     }
 }
