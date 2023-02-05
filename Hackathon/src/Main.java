@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 import java.time.*;
-class Main2 {
+class Main {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner in = new Scanner(System.in);
         ArrayList<String> serialNum = new ArrayList<>();
