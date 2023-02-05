@@ -6,7 +6,7 @@ class Main {
         Scanner in = new Scanner(System.in);
         ArrayList<String> serialNum = new ArrayList<>();
         Scanner se = new Scanner(new File("serial.txt"));
-        int next = 0;
+        int next = 999999;
         while(se.hasNextLine()) {
             serialNum.add(se.nextLine());
             next = Integer.parseInt(serialNum.get(serialNum.size()-1));
